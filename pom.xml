@@ -19,11 +19,6 @@
 			<version>0.4.9-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.andreamazzon</groupId>
-			<artifactId>javacourse-23</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
 			<groupId>net.finmath</groupId>
 			<artifactId>finmath-lib</artifactId>
 			<version>6.0.20-SNAPSHOT</version>
