@@ -23,6 +23,11 @@
 			<artifactId>finmath-lib</artifactId>
 			<version>6.0.20-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>info.quantlab</groupId>
+			<artifactId>numerical-methods-lecture</artifactId>
+			<version>0.0.5-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
   
   <build>
