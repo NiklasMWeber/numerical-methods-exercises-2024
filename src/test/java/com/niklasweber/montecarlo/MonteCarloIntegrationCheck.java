@@ -3,7 +3,6 @@ package com.niklasweber.montecarlo;
 import java.text.DecimalFormat;
 import java.util.Arrays;
 
-import com.niklasweber.montecarlo.MonteCarloEvaluationsWithExactResultInterface;
 import com.niklasweber.montecarlo.MonteCarloIntegrationPowerFunction;
 
 
@@ -11,7 +10,7 @@ import com.niklasweber.montecarlo.MonteCarloIntegrationPowerFunction;
  * This class tests the Monte-Carlo computation of the integral of a function
  * x^alpha between 0 and 1
  *
- * @author Andrea Mazzon
+ * @author Niklas Weber
  *
  */
 public class MonteCarloIntegrationCheck {
@@ -79,7 +78,7 @@ public class MonteCarloIntegrationCheck {
 					exponent, numberOfIntegrations, numberOfDrawings);
 
 			averageAbsoluteError = newSimulator.getAverageAbsoluteError();
-			
+
 			System.out.println("Mean of the errors in the approximation of the integral with " + numberOfDrawings
 					+ " drawings: " + formatterDouble.format(averageAbsoluteError));
 

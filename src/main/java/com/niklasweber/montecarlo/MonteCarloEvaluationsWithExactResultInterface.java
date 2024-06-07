@@ -5,8 +5,8 @@ package com.niklasweber.montecarlo;
  * suppose that we already know the exact value of the quantity we approximate
  * by Monte-Carlo. So we experiment on the quality of our approximation by
  * getting the vector of the absolute errors and the average of the vector.
- * 
- * @author Andrea Mazzon
+ *
+ * @author Niklas Weber
  *
  */
 public interface MonteCarloEvaluationsWithExactResultInterface extends MonteCarloEvaluationsInterface {

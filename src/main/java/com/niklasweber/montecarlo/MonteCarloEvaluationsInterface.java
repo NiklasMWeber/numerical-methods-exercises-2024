@@ -3,6 +3,9 @@ package com.niklasweber.montecarlo;
 /**
  * Interface for some experiments on the implementation of a Monte-Carlo method,
  * can it be for pricing, for computing an integral or whatever.
+ *
+ * @author Niklas Weber
+ *
  */
 public interface MonteCarloEvaluationsInterface {
 
@@ -28,7 +31,7 @@ public interface MonteCarloEvaluationsInterface {
 	 * Returns the standard deviation of the different results obtained by the
 	 * Monte-Carlo method (for example, different prices for underlying with
 	 * different seeds)
-	 * 
+	 *
 	 * @return the standard deviation of the array that stores the different results
 	 *         obtained by Monte-Carlo computations
 	 */
@@ -59,7 +62,7 @@ public interface MonteCarloEvaluationsInterface {
 	 *         array, whose first and last elements are the outliers smaller than
 	 *         leftPointOfInterval and bigger than rightPointOfInterval,
 	 *         respectively. The i-th element is the number of realizations that
-	 *         fall into the interval 
+	 *         fall into the interval
 	 *         [leftPointOfInterval + (i-1)binSize, leftPointOfInterval + i binSize),
 	 *         where
 	 *         binSize = (rightPointOfInterval - leftPointOfInterval) / numberOfBins
